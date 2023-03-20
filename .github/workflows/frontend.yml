@@ -1,12 +1,7 @@
 name: Let's Code ADA Pipeline - Frontend
 
 on:
-  push:
-    branches:
-      - develop
-  pull_request:
-    branches:
-      - develop
+  workflow_dispatch:
 
 env:
   WORK_DIR: "./frontend/app"
